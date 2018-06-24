@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dglab2018",
-    version="0.0.5",
+    version="0.0.6",
     author="Dominik Gotojuch",
     author_email="dominik@gotojuch.com",
     description="Data processing and analysis scripts supporting the PhD project by one Dominik Gotojuch",
