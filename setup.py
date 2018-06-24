@@ -1,11 +1,21 @@
-from setuptools import setup
+import setuptools
+	  
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
-setup(name='dglab2018',
-      version='0.1',
-      description='Data processing and analysis scripts supporting the PhD project by one Dominik Gotojuch',
-      url='https://github.com/robotgentleman/dglab2018',
-      author='Dominik Gotojuch',
-      author_email='dominik@gotojuch.com',
-      license='MIT',
-      packages=['dglag2018'],
-      zip_safe=False)
+setuptools.setup(
+    name="dglab2018",
+    version="0.0.1",
+    author="Dominik Gotojuch",
+    author_email="dominik@gotojuch.com",
+    description="Data processing and analysis scripts supporting the PhD project by one Dominik Gotojuch",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/robotgentleman/dglab2018",
+    packages=setuptools.find_packages(),
+    classifiers=(
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ),
+)
