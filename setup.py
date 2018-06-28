@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="dglab2018",
-    version="0.0.8",
+    version="0.0.14",
     author="Dominik Gotojuch",
     author_email="dominik@gotojuch.com",
     description="Data processing and analysis scripts supporting the PhD project by one Dominik Gotojuch",
